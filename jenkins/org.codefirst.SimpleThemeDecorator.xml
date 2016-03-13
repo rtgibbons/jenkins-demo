@@ -1,5 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<org.codefirst.SimpleThemeDecorator plugin="simple-theme-plugin@0.3">
-  <cssUrl>https://cdn.rawgit.com/djonsson/jenkins-atlassian-theme/gh-pages/theme-min.css</cssUrl>
-  <jsUrl>https://cdn.rawgit.com/djonsson/jenkins-atlassian-theme/gh-pages/theme.js</jsUrl>
-</org.codefirst.SimpleThemeDecorator>
