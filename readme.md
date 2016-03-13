@@ -4,7 +4,9 @@ The purpose of this is a simple demo to test out jenkins configs. This was built
 
 * Default - https://jenkins-demo.herokuapp.com/
 * Jenkins Atlassian Theme - https://jenkins-atlassian-theme.herokuapp.com/
+  * via https://github.com/djonsson/jenkins-atlassian-theme
 * Rackspace Cannon - https://jenkins-rackspace-canon-theme.herokuapp.com/
+  * via https://github.com/rackerlabs/canon-jenkins 
 
 You can view the plugins installed at [jenkins/plugins](jenkins/plugins). The main ones installed Simple Theme, jQuery, Gravatar and Git Plugin.
 
