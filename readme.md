@@ -1,6 +1,10 @@
 # Jenkins Demo
 
-The purpose of this is a simple demo to test out jenkins configs. This was built to show case [Jenkins Atlassian Theme](https://github.com/djonsson/jenkins-atlassian-theme) from [Daniel Jonsson](https://github.com/djonsson)
+The purpose of this is a simple demo to test out jenkins configs. This was built to show case [Jenkins Atlassian Theme](https://github.com/djonsson/jenkins-atlassian-theme) from [Daniel Jonsson](https://github.com/djonsson). After getting this up, I decided to actually run it for multiple demos. It currently features 3 themes, 
+
+* Default - https://jenkins-demo.herokuapp.com/
+* Jenkins Atlassian Theme - https://jenkins-atlassian-theme.herokuapp.com/
+* Rackspace Cannon - https://jenkins-rackspace-canon-theme.herokuapp.com/
 
 You can view the plugins installed at [jenkins/plugins](jenkins/plugins). The main ones installed Simple Theme, jQuery, Gravatar and Git Plugin.
 
