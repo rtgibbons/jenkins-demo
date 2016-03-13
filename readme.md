@@ -25,18 +25,18 @@ index d258ddc..6e24f15 100644
    <numExecutors>2</numExecutors>
    <mode>NORMAL</mode>
    <useSecurity>true</useSecurity>
--  <authorizationStrategy class="hudson.security.LegacyAuthorizationStrategy"/>
-+  <authorizationStrategy class="hudson.security.GlobalMatrixAuthorizationStrategy">
-+    <permission>hudson.model.Hudson.Read:anonymous</permission>
-+    <permission>hudson.model.Item.Build:anonymous</permission>
-+    <permission>hudson.model.Item.Discover:anonymous</permission>
-+    <permission>hudson.model.Item.Read:anonymous</permission>
-+    <permission>hudson.model.Item.Workspace:anonymous</permission>
-+    <permission>hudson.model.View.Configure:anonymous</permission>
-+    <permission>hudson.model.View.Create:anonymous</permission>
-+    <permission>hudson.model.View.Delete:anonymous</permission>
-+    <permission>hudson.model.View.Read:anonymous</permission>
-+  </authorizationStrategy>
++  <authorizationStrategy class="hudson.security.AuthorizationStrategy$Unsecured"/>
+-  <authorizationStrategy class="hudson.security.GlobalMatrixAuthorizationStrategy">
+-    <permission>hudson.model.Hudson.Read:anonymous</permission>
+-    <permission>hudson.model.Item.Build:anonymous</permission>
+-    <permission>hudson.model.Item.Discover:anonymous</permission>
+-    <permission>hudson.model.Item.Read:anonymous</permission>
+-    <permission>hudson.model.Item.Workspace:anonymous</permission>
+-    <permission>hudson.model.View.Configure:anonymous</permission>
+-    <permission>hudson.model.View.Create:anonymous</permission>
+-    <permission>hudson.model.View.Delete:anonymous</permission>
+-    <permission>hudson.model.View.Read:anonymous</permission>
+-  </authorizationStrategy>
    <securityRealm class="hudson.security.SecurityRealm$None"/>
    <disableRememberMe>false</disableRememberMe>
    <projectNamingStrategy class="jenkins.model.ProjectNamingStrategy$DefaultProjectNamingStrategy"/>
