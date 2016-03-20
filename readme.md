@@ -45,6 +45,7 @@ index d258ddc..6e24f15 100644
 The below will use the jenkins home directory inside the git repo, and will start jenkins on PORT 8080
 
     export JENKINS_HOME="jenkins"
+    export JENKINS_URL="http://localhost:8080/"
     java -jar jenkins.war --httpPort=8080 --ajp13Port=-1 --httpsPort=-1
 
 ## To run on Heorku
